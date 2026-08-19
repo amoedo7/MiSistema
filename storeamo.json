@@ -1,0 +1,13 @@
+{
+  "schema": "storeamo.app.v1",
+  "id": "misistema",
+  "name": "MiSistema",
+  "tagline": "Qué tenés y qué podés ejecutar.",
+  "description": "Inventario local de runtimes, shell, arquitectura y capacidades sin leer secretos.",
+  "category": "Diagnóstico",
+  "featured": false,
+  "status": "development",
+  "supported_platforms": ["android", "windows", "macos", "linux"],
+  "store": {"screenshots": []},
+  "verification": {"policy": "storeamo-default-v1", "required_checks": ["tests", "integrity"]}
+}
