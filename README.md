@@ -6,7 +6,7 @@
 
 [![CI](https://github.com/amoedo7/MiSistema/actions/workflows/ci.yml/badge.svg)](https://github.com/amoedo7/MiSistema/actions/workflows/ci.yml)
 
-`Android / Termux` · `Windows` · `macOS` · `Linux` · `Python 3`
+`Android / Termux` · `Windows` · `macOS` · `Linux` · `Python 3` · `HTML local`
 </div>
 
 ---
@@ -48,6 +48,10 @@ En Termux:
 pkg install python
 python misistema.py
 ```
+
+## Dashboard local
+
+[`viewer.html`](viewer.html) transforma `sistema.json` en un panel local con sistema, arquitectura, shell, runtimes y capacidades. El archivo no se sube a ningún servidor.
 
 ## Ejemplo
 
